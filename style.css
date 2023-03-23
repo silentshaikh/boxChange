@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container{
+    width: 400px;
+    height: 350px;
+    border-radius: 50px;
+background: #f1eeee;
+box-shadow:  29px 29px 58px #e2e0e0,
+             -29px -29px 58px #ffffff;
+}
+.inp{
+    margin-top: 30px;
+}
+.inp input{
+    padding: 15px 50px;
+    font-size: 1.4rem;
+    outline: none;
+    font-weight: 600;
+    box-shadow: 20px 20px 20px 20px #cfcece;
+    border: none;
+}
+h1{
+    padding: 34px;
+}
+p{
+    padding: 0 34px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
